@@ -57,7 +57,7 @@ void help() {
 }
 
 void create_file(int mode, char* filename) {
-    char *word = (mode == 1) ? "STOICISM\n" : "stoicism\n";
+    char *word = (mode == 1) ? "DESERT\n" : "desert\n";
 
     FILE * fptr;
     fptr = fopen(filename, "w");
